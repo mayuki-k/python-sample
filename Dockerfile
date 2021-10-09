@@ -1,0 +1,5 @@
+FROM bitnami/git
+
+ENV APP_HOME /app
+WORKDIR $APP_HOME
+COPY . ./
